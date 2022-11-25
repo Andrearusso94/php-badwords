@@ -26,8 +26,8 @@
           
         </div>
         <div class="mb-3">
-          <label for="name" class="form-label">Name</label>
-          <input type="text" name="name" id="name" class="form-control" placeholder="Andrea" aria-describedby="helpId">
+          <label for="words" class="form-label">Parola da cancellare</label>
+          <input type="text" name="words" id="words" class="form-control" placeholder="aaaaa" aria-describedby="helpId">
           
           <button class="btn btn-primary" type="submit">Submit</button>
         
