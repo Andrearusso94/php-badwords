@@ -7,6 +7,7 @@ $testo = $_GET['testo'];
 $greetings = "Il tuo testo: $testo ";
 //creo nuova variabile per nasconder il nome inserito
 $newName = str_ireplace($name, '***', $name);
+$newText = "$testo, $name";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,5 +25,6 @@ $newName = str_ireplace($name, '***', $name);
     <h3><?php echo $name; ?></h3>
     <!--stampo nome censurato-->
     <h3> <?php echo 'Ho censurato il nome ' . $newName; ?></h3>
+    <h4> <?php echo 'Ora il tuo paragrafo è lungo '.strlen($newText) .' caratteri e la parola viene censurata ' . $newName; ?></h4>
 </body>
 </html>
