@@ -8,7 +8,7 @@ $greetings = "Il tuo testo: $testo ";
 //creo nuova variabile per nasconder il nome inserito
 $newText = str_ireplace($words, '***', $testo);
 //$newText = "$testo, $name";
-var_dump($words, $testo, $newText)
+var_dump($words, $testo, $newText);
 ?>
 <!DOCTYPE html>
 <html lang="en">
