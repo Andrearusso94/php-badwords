@@ -18,17 +18,21 @@
     <!-- place navbar here -->
   </header>
   <main>
-<div class="mb-3">
-  <label for="text" class="form-label">Text</label>
-  <input type="text" name="text" id="text" class="form-control" placeholder="Inserisci testo" aria-describedby="helpId">
-  <small id="helpText" class="text-muted">Scrivi il tuo testo</small>
-  <div class="mb-3">
-    <label for="name" class="form-label">Name</label>
-    <input type="text" name="name" id="name" class="form-control" placeholder="Inserisci nome" aria-describedby="helpId">
-    <small id="helpName" class="text-muted">Scrivi il tuo nome</small>
-    <br>
-    <a name="" id="" class="btn btn-primary" href="#" role="button">Submit</a>
-  </div>
+<div class="container">
+    <form action="greetings.php" method="get">
+        <div class="mb-3">
+          <label for="testo" class="form-label">Testo da inserire</label>
+          <input type="text" name="testo" id="testo" class="form-control" placeholder="aaaaa" aria-describedby="helpId">
+          
+        </div>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" name="name" id="name" class="form-control" placeholder="Andrea" aria-describedby="helpId">
+          
+          <button class="btn btn-primary" type="submit">Submit</button>
+        
+        </div>
+    </form>
 </div>
   </main>
   <footer>
